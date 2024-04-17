@@ -1,4 +1,8 @@
-<?php?>
+<?php
+
+
+
+?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -22,14 +26,22 @@
 
     <body>
         <div id="app">
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main><h1>hello world</h1></main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-    </div>
+            <header>
+                <!-- place navbar here -->
+            </header>
+
+            <main>
+
+                <h1>hello world</h1>
+                <p v-for="disco in dischi"> {{disco.title}}</p>
+
+            </main>
+
+            <footer>
+                <!-- place footer here -->
+            </footer>
+        </div>
+
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <!-- Bootstrap JavaScript Libraries -->
