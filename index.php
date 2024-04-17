@@ -30,13 +30,19 @@
                 <!-- place navbar here -->
             </header>
 
-            <main>
+            <main class="bg-dark">
 
-            <div class="container">
-                <div class="row">
+            <div class="container ">
+                <div class="row g-5">
                     <div v-for="disco in dischi" class="col-4">
-                        <div class="card">
-                        <img class="card-img-top" :src="disco.poster" alt="Card image cap">
+                        <div class="card bg_blue text-white py-5">
+                        <img class="card-img-top m-auto w-75 " :src="disco.poster" alt="Card image cap">
+                        <div class="card-body text-center">
+                            <h5 class="card-title ">{{disco.title}}</h5>
+                            <p>{{disco.author}}</p>
+                            <h5>{{disco.year}}</h5>
+                            <p class="m-0">{{disco.genre}}</p>
+                        </div>
                         </div>
                     </div>
                 </div>
