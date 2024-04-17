@@ -26,16 +26,16 @@
 
     <body>
         <div id="app">
-            <header class="bg-black py-5">
-                <!-- place navbar here -->
+            <header class="bg-black ">
+                <h1 class=" m-0 py-5 text-white">BOOLIFY</h1>
             </header>
 
             <main class="bg-dark">
 
             <div class="container ">
                 <div class="row g-5">
-                    <div v-for="disco in dischi" class="col-4">
-                        <div class="card bg_blue text-white py-5">
+                    <div v-for="(disco,index) in dischi" class="col-4">
+                        <div @click="showDisk(index)" class="card bg_blue text-white py-5">
                         <img class="card-img-top m-auto w-75 " :src="disco.poster" alt="Card image cap">
                         <div class="card-body text-center">
                             <h5 class="card-title ">{{disco.title}}</h5>

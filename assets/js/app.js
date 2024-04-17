@@ -8,6 +8,16 @@ createApp({
 
         }
     },
+
+    methods: {
+
+        showDisk(index) {
+            console.log(this.dischi[index]);
+        }
+
+
+    },
+
     mounted() {
         axios.get(this.base_api_url)
             .then((result) => {
