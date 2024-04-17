@@ -26,13 +26,23 @@
 
     <body>
         <div id="app">
-            <header>
+            <header class="bg-black py-5">
                 <!-- place navbar here -->
             </header>
 
             <main>
 
-                <h1>hello world</h1>
+            <div class="container">
+                <div class="row">
+                    <div v-for="disco in dischi" class="col-4">
+                        <div class="card">
+                        <img class="card-img-top" :src="disco.poster" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
                 <p v-for="disco in dischi"> {{disco.title}}</p>
 
             </main>
