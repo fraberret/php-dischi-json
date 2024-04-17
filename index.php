@@ -21,6 +21,7 @@
     </head>
 
     <body>
+        <div id="app">
         <header>
             <!-- place navbar here -->
         </header>
@@ -28,6 +29,7 @@
         <footer>
             <!-- place footer here -->
         </footer>
+    </div>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <!-- Bootstrap JavaScript Libraries -->
@@ -42,5 +44,6 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+        <script src="./assets/js/app.js"></script>
     </body>
 </html>
