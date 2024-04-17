@@ -1,4 +1,4 @@
-
+<?php?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -17,18 +17,19 @@
             integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
 
     <body>
         <header>
             <!-- place navbar here -->
         </header>
-        <main></main>
+        <main><h1>hello world</h1></main>
         <footer>
             <!-- place footer here -->
         </footer>
-        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
