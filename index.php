@@ -48,9 +48,6 @@
                 </div>
             </div>
 
-
-                <p v-for="disco in dischi"> {{disco.title}}</p>
-
             </main>
 
             <footer>
